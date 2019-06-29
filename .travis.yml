@@ -8,15 +8,16 @@ node_js:
 env:
   global:
   - NODE_ENV=production
-  - SMOKE_URL=https://llk.github.io/scratch-gui/$TRAVIS_PULL_REQUEST_BRANCH
+  - SMOKE_URL=https://natsumo.github.io/scratch-gui/$TRAVIS_PULL_REQUEST_BRANCH
   - NPM_TAG=latest
   - RELEASE_VERSION="0.1.0-prerelease.$(date +'%Y%m%d%H%M%S')"
 cache:
   directories:
   - node_modules
 install:
-- npm install
-- npm update
+- npm --production=false install
+- npm --production=false update
+- yarn link scratch-vm
 script:
 - npm test
 - if [ "$TRAVIS_EVENT_TYPE" == "pull_request" ] && [ "$TRAVIS_BRANCH" == "master" ]; then  npm run test:smoke; fi
