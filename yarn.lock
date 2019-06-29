@@ -8340,10 +8340,9 @@ scratch-translate-extension-languages@0.0.20190416132834:
   resolved "https://registry.yarnpkg.com/scratch-translate-extension-languages/-/scratch-translate-extension-languages-0.0.20190416132834.tgz#988eb4a6ee7abcaec8077ad8519a7b4236242d67"
   integrity sha512-mRDRBqbwf52DSbR9tJLRw2/MIUoFncNaqTKkVjdDJcIRm5niTtKtFDn2BlyQunAAkUVdswncS0t1wpf155lQGw==
 
-scratch-vm@0.2.0-prerelease.20190619042313:
-  version "0.2.0-prerelease.20190619042313"
-  resolved "https://registry.yarnpkg.com/scratch-vm/-/scratch-vm-0.2.0-prerelease.20190619042313.tgz#2e40b37c84d346a798dfce663c2b947d8cc6a067"
-  integrity sha512-S27uITy1MuP8gcxVHscTcsK349jwPhp5bOB+RDYBosrR8zV0v1tHDizCH50aGh8gxJdBX6wv7QYN2EkIOh6USA==
+"scratch-vm@github:natsumo/scratch-vm#develop":
+  version "0.2.0"
+  resolved "https://codeload.github.com/natsumo/scratch-vm/tar.gz/8beef76e487fdf4cf6cbc554692573c70e9488b2"
   dependencies:
     "@vernier/godirect" "1.5.0"
     arraybuffer-loader "^1.0.6"
