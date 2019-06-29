@@ -13,16 +13,17 @@
     "start": "webpack-dev-server",
     "test": "npm run test:lint && npm run test:unit && npm run build && npm run test:integration",
     "test:integration": "jest --runInBand test[\\\\/]integration",
+    "test:lint": "eslint . --ext .js,.jsx",
     "test:unit": "jest test[\\\\/]unit",
     "test:smoke": "jest --runInBand test[\\\\/]smoke",
     "watch": "webpack --progress --colors --watch"
   },
   "author": "Massachusetts Institute of Technology",
   "license": "BSD-3-Clause",
-  "homepage": "https://github.com/LLK/scratch-gui#readme",
+  "homepage": "https://github.com/natsumo/scratch-gui#readme",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/LLK/scratch-gui.git"
+    "url": "git+ssh://git@github.com/natsumo/scratch-gui.git"
   },
   "peerDependencies": {
     "react": "^16.0.0",
