@@ -46,21 +46,21 @@ import gdxforInsetIconURL from './gdxfor/gdxfor-small.svg';
 import gdxforConnectionIconURL from './gdxfor/gdxfor-illustration.svg';
 import gdxforConnectionSmallIconURL from './gdxfor/gdxfor-small.svg';
 
-import newBlockImage from './newblocks.png';
-import newBlockButtonImage from './newblocks-small.png';
+import newBlockImage from './ncmb.jpg';
+import newBlockButtonImage from './ncmb-small.png';
 
 export default [
     {
-        name: 'NewBlocks',
+        name: 'NCMB Blocks',
         extensionId: 'newblocks',
-        collaborator: 'Me',
+        collaborator: 'FJCT',
         iconURL: newBlockImage,
         insetIconURL: newBlockButtonImage,
         description: (
             <FormattedMessage
-                defaultMessage="New blocks."
-                description="my block"
-                id="gui.extension.newblocks.description"
+                defaultMessage="ニフクラ mobile backend と連携する"
+                description="Description for the 'NCMB' extension"
+                id="gui.extension.ncmb.description"
             />
         ),
         featured: true,
