@@ -8,7 +8,7 @@ node_js:
 env:
   global:
   - NODE_ENV=production
-  - SMOKE_URL=https://natsumo.github.io/scratch-gui/$TRAVIS_PULL_REQUEST_BRANCH
+  - SMOKE_URL=https://LLK.github.io/scratch-gui/$TRAVIS_PULL_REQUEST_BRANCH
   - NPM_TAG=latest
   - RELEASE_VERSION="0.1.0-prerelease.$(date +'%Y%m%d%H%M%S')"
 cache:
