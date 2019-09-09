@@ -46,19 +46,19 @@ import gdxforInsetIconURL from './gdxfor/gdxfor-small.svg';
 import gdxforConnectionIconURL from './gdxfor/gdxfor-illustration.svg';
 import gdxforConnectionSmallIconURL from './gdxfor/gdxfor-small.svg';
 
-import newBlockImage from './ncmb.jpg';
+import newBlockImage from './ncmb.png';
 import newBlockButtonImage from './ncmb-small.png';
 
 export default [
     {
-        name: 'NCMB Blocks',
+        name: 'NCMB',
         extensionId: 'newblocks',
         collaborator: 'FJCT',
         iconURL: newBlockImage,
         insetIconURL: newBlockButtonImage,
         description: (
             <FormattedMessage
-                defaultMessage="ニフクラ mobile backend と連携する"
+                defaultMessage="クラウドデータベースを使う。"
                 description="Description for the 'NCMB' extension"
                 id="gui.extension.ncmb.description"
             />
